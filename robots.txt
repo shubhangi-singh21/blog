@@ -1,1 +1,1 @@
-Sitemap: https://carlsrm.tech//blog/sitemap.xml
+Sitemap: https://carlsrm.github.io/the_blog/sitemap.xml
