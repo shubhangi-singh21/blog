@@ -33,6 +33,7 @@ minima:
   social_links:
     twitter: carlsrm
     github: carlsrm
+    linkedin_username : company/carlsrm
 
 # Set this to true to get LaTeX math equation support
 use_math: true
@@ -86,10 +87,11 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  - jekyll-scholar
 
 # See https://jekyllrb.com/docs/pagination/
 # For pagination to work, you cannot have index.md at the root of your repo, instead you must rename this file to index.html
-paginate: 15
+paginate: 20
 paginate_path: /page:num/
 
 remote_theme: jekyll/minima
