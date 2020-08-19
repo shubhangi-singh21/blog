@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
-permalink: /about/
+title: Contact
+permalink: /contact/
 ---
 # Where research meets dedication!
