@@ -1,1 +1,1 @@
-Sitemap: https://carlsrm.tech/blog/sitemap.xml
+Sitemap: https://blog.carlsrm.tech/sitemap.xml
