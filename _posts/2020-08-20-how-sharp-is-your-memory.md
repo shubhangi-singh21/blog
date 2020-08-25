@@ -4,12 +4,12 @@ author: Sanskriti Khare
 description: A fun-to-play memory checker made with Python's Speech Recognition API
 categories: [speech recognition, python, pyttsx3]
 sticky_rank: 1
-toc: true
+toc: false
 layout: post
 comments: true
 image: images/blog_1/memory_game.jpg
 ---
-# Introduction
+## Introduction
 
 Hey! This is Sanskriti. Hope you all are doing well in this lockdown and using your time well to do productive things. So one of these days, my younger cousin wanted to play something with me, we were on a call. I remembered the memory game I used to play with my mom when I was a kid. My mom used to say the name of an object, I had to add one more object to the list, likewise we had to remember all the old objects in the list in the order and also add the new one. I started playing this game with my cousin but after some time, we both started forgetting the list and neither of us couldn't point out the mistakes of each other, therefore we didn't have a winner. So that day I decided to computerise this game with speech integration. This could solve two problems:
 
