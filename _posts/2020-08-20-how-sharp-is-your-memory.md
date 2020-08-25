@@ -1,14 +1,15 @@
 ---
 title: How sharp is your Memory? Check it with this Memory Game
-description: Using Speech Recognition to synthesize a memory checker
-categories: [speech recognition, python]
+author: Sanskriti Khare
+description: A fun-to-play memory checker made with Python's Speech Recognition API
+categories: [speech recognition, python, pyttsx3]
 sticky_rank: 1
-toc: false
+toc: true
 layout: post
 comments: true
 image: images/blog_1/memory_game.jpg
 ---
-# How sharp is your Memory? Check it with this Memory Game 
+# Introduction
 
 Hey! This is Sanskriti. Hope you all are doing well in this lockdown and using your time well to do productive things. So one of these days, my younger cousin wanted to play something with me, we were on a call. I remembered the memory game I used to play with my mom when I was a kid. My mom used to say the name of an object, I had to add one more object to the list, likewise we had to remember all the old objects in the list in the order and also add the new one. I started playing this game with my cousin but after some time, we both started forgetting the list and neither of us couldn't point out the mistakes of each other, therefore we didn't have a winner. So that day I decided to computerise this game with speech integration. This could solve two problems:
 
@@ -16,9 +17,8 @@ Hey! This is Sanskriti. Hope you all are doing well in this lockdown and using y
 
 - If you don't have a partner to play along with you, you could play it with the computer. So making the traditional memory game that we have been playing since childhood more interactive, fun and easy to play!
 
-![](/images/blog_1/memory_game_flowchart.jpeg "flowchart 1")
+![](/images/blog_1/memory_game_flowchart.jpeg "Flowchart")
 
-Flowchart for the memory game program
 
 ## Step 1: Generate random numbers and append them in a list
 
@@ -82,9 +82,8 @@ In the modern speech recognition models like the [Hidden Markov Model](https://e
 
 To decode the speech into text, groups of vectors are matched to one or more [phonemes](https://en.wikipedia.org/wiki/Phoneme)—a fundamental unit of speech. This calculation requires training, since the sound of a phoneme varies from speaker to speaker. A special algorithm is then applied to determine the most likely word (or words) that produce the given sequence of phonemes.
 
-![](/images/blog_1/speech_recognition_flowchart.jpeg "flowchart 2")
+![](/images/blog_1/speech_recognition_flowchart.jpeg "Voice Recognition Steps courtesy Packt Publishing")
 
-Source: packtpub.com
 
 ## Step 4: Making the computer interact with player
 
@@ -100,7 +99,7 @@ def speak(text):
     engine.say(text)
     engine.runAndWait()
 ```
-## Conclusion:
+## Conclusion
 
 Hope you enjoy building and playing this game. You can check my github repo [github repo](https://github.com/sanskritikhare142/Memory-game-using-speech) for the complete code.
 
