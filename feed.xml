@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://blog.carlsrm.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.carlsrm.tech/" rel="alternate" type="text/html" /><updated>2020-08-24T18:08:34-05:00</updated><id>https://blog.carlsrm.tech/feed.xml</id><title type="html">CARL Blog</title><subtitle>The official blog of CARL SRM</subtitle><entry><title type="html">How sharp is your Memory? Check it with this Memory Game</title><link href="https://blog.carlsrm.tech/speech%20recognition/python/2020/08/20/blog-1.html" rel="alternate" type="text/html" title="How sharp is your Memory? Check it with this Memory Game" /><published>2020-08-20T00:00:00-05:00</published><updated>2020-08-20T00:00:00-05:00</updated><id>https://blog.carlsrm.tech/speech%20recognition/python/2020/08/20/blog-1</id><content type="html" xml:base="https://blog.carlsrm.tech/speech%20recognition/python/2020/08/20/blog-1.html">&lt;h1 id=&quot;how-sharp-is-your-memory-check-it-with-this-memory-game&quot;&gt;How sharp is your Memory? Check it with this Memory Game&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://blog.carlsrm.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.carlsrm.tech/" rel="alternate" type="text/html" /><updated>2020-08-25T17:46:29-05:00</updated><id>https://blog.carlsrm.tech/feed.xml</id><title type="html">CARL Blog</title><subtitle>The official blog of CARL SRM</subtitle><entry><title type="html">How sharp is your Memory? Check it with this Memory Game</title><link href="https://blog.carlsrm.tech/speech%20recognition/python/pyttsx3/2020/08/20/how-sharp-is-your-memory.html" rel="alternate" type="text/html" title="How sharp is your Memory? Check it with this Memory Game" /><published>2020-08-20T00:00:00-05:00</published><updated>2020-08-20T00:00:00-05:00</updated><id>https://blog.carlsrm.tech/speech%20recognition/python/pyttsx3/2020/08/20/how-sharp-is-your-memory</id><content type="html" xml:base="https://blog.carlsrm.tech/speech%20recognition/python/pyttsx3/2020/08/20/how-sharp-is-your-memory.html">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
 
 &lt;p&gt;Hey! This is Sanskriti. Hope you all are doing well in this lockdown and using your time well to do productive things. So one of these days, my younger cousin wanted to play something with me, we were on a call. I remembered the memory game I used to play with my mom when I was a kid. My mom used to say the name of an object, I had to add one more object to the list, likewise we had to remember all the old objects in the list in the order and also add the new one. I started playing this game with my cousin but after some time, we both started forgetting the list and neither of us couldn’t point out the mistakes of each other, therefore we didn’t have a winner. So that day I decided to computerise this game with speech integration. This could solve two problems:&lt;/p&gt;
 
@@ -11,9 +11,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/blog_1/memory_game_flowchart.jpeg&quot; alt=&quot;&quot; title=&quot;flowchart 1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Flowchart for the memory game program&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog_1/memory_game_flowchart.jpeg&quot; alt=&quot;&quot; title=&quot;Flowchart&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;step-1-generate-random-numbers-and-append-them-in-a-list&quot;&gt;Step 1: Generate random numbers and append them in a list&lt;/h2&gt;
 
@@ -74,9 +72,7 @@
 
 &lt;p&gt;To decode the speech into text, groups of vectors are matched to one or more &lt;a href=&quot;https://en.wikipedia.org/wiki/Phoneme&quot;&gt;phonemes&lt;/a&gt;—a fundamental unit of speech. This calculation requires training, since the sound of a phoneme varies from speaker to speaker. A special algorithm is then applied to determine the most likely word (or words) that produce the given sequence of phonemes.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/blog_1/speech_recognition_flowchart.jpeg&quot; alt=&quot;&quot; title=&quot;flowchart 2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Source: packtpub.com&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/blog_1/speech_recognition_flowchart.jpeg&quot; alt=&quot;&quot; title=&quot;Voice Recognition Steps courtesy Packt Publishing&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;step-4-making-the-computer-interact-with-player&quot;&gt;Step 4: Making the computer interact with player&lt;/h2&gt;
 
@@ -91,7 +87,7 @@
     &lt;span class=&quot;n&quot;&gt;engine&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;say&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;engine&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;runAndWait&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion:&lt;/h2&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;Hope you enjoy building and playing this game. You can check my github repo &lt;a href=&quot;https://github.com/sanskritikhare142/Memory-game-using-speech&quot;&gt;github repo&lt;/a&gt; for the complete code.&lt;/p&gt;
 
@@ -101,4 +97,4 @@
 
 &lt;p&gt;Cheers,&lt;/p&gt;
 
-&lt;p&gt;Sanskriti Khare&lt;/p&gt;</content><author><name></name></author><summary type="html">How sharp is your Memory? Check it with this Memory Game</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.carlsrm.tech/images/blog_1/memory_game.jpg" /><media:content medium="image" url="https://blog.carlsrm.tech/images/blog_1/memory_game.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Sanskriti Khare&lt;/p&gt;</content><author><name>Sanskriti Khare</name></author><summary type="html">Introduction</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.carlsrm.tech/images/blog_1/memory_game.jpg" /><media:content medium="image" url="https://blog.carlsrm.tech/images/blog_1/memory_game.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
