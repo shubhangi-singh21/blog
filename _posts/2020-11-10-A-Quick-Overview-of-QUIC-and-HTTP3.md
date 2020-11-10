@@ -118,6 +118,8 @@ ____
 
 [Shubhangi Singh](https://github.com/shubhangi-singh21)
 
+View published blog [here](https://blog.carlsrm.tech/quic%20%20http3/web/2020/11/10/A-Quick-Overview-of-QUIC-and-HTTP3.html)
+
 ____
 
 
